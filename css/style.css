@@ -4,3 +4,21 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #70b2b2, #016b61);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px;
+}
+.todo-app h2 img{
+    width: 40px;
+    margin-left: 15px;
+}
