@@ -4,21 +4,51 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #70b2b2, #016b61);
-    padding: 10px;
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #70b2b2, #79b5b5, #016b61);
+  padding: 10px;
 }
-.todo-app{
-    width: 100%;
-    max-width: 500px;
-    background: #ffffff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 15px;
+.todo-app {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 15px;
 }
-.todo-app h2 img{
-    width: 40px;
-    margin-left: 15px;
+.todo-app h2 img {
+  width: 40px;
+  margin-left: 15px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #d9f4f4;
+  border-radius: 40px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+input {
+  flex-wrap: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  color: #01453e;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #70b2b2;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
 }
